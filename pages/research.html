@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Papers &amp; Books -- Breaking Into Fashion Tech</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+<nav class="navbar">
+  <a href="../index.html" class="nav-logo">Fashion <span>Tech</span></a>
+  <a href="../index.html" class="nav-back">&larr; Back to Guide</a>
+</nav>
+
+<section class="page-hero">
+  <div class="page-hero-inner">
+    <span class="page-number">06</span>
+    <p class="page-label">Section Six</p>
+    <h1>Papers &amp; Books</h1>
+    <div class="hero-line"></div>
+  </div>
+</section>
+
+<article class="content">
+
+  <h2>Key Papers (Fashion AI)</h2>
+
+  <div class="table-wrap">
+  <table>
+    <thead><tr><th>Paper</th><th>Source</th><th>Topic</th></tr></thead>
+    <tbody>
+      <tr><td><strong><a href="https://mmlab.ie.cuhk.edu.hk/projects/DeepFashion.html" target="_blank" rel="noopener">DeepFashion</a>: Powering Robust Clothes Recognition and Retrieval</strong></td><td>Liu et al., CVPR 2016</td><td>Foundational dataset and benchmarks</td></tr>
+      <tr><td><strong>Learning Visual Compatibility Across Categories</strong></td><td>McAuley et al.</td><td>Fashion compatibility/recommendation</td></tr>
+      <tr><td><strong>Be Your Own Prada: Fashion Synthesis with Structural Coherence</strong></td><td>Zhu et al., ICCV 2017</td><td>GANs for fashion image generation</td></tr>
+      <tr><td><strong>Visually-Aware Fashion Recommendation</strong></td><td>Kang et al., ICDM 2017</td><td>Visual recommendation systems</td></tr>
+      <tr><td><strong>Fashion Forward: Forecasting Visual Style</strong></td><td>Al-Halah et al., ICCV 2017</td><td>Predicting trends from imagery</td></tr>
+      <tr><td><strong>VITON: An Image-based Virtual Try-On Network</strong></td><td>Han et al., CVPR 2018</td><td>Virtual try-on (highly cited)</td></tr>
+      <tr><td><strong>FashionBERT</strong></td><td>Gao et al., 2020</td><td>BERT for fashion multimodal tasks</td></tr>
+      <tr><td><strong>TryOnDiffusion</strong></td><td>Google, 2023</td><td>State-of-art virtual try-on with diffusion models</td></tr>
+    </tbody>
+  </table>
+  </div>
+
+  <h2>Books</h2>
+
+  <h3>Read first</h3>
+  <ul>
+    <li><strong><a href="https://www.amazon.com/Fashionopolis-Price-Fast-Fashion-Future/dp/0735224021" target="_blank" rel="noopener">Fashionopolis</a></strong> by Dana Thomas -- sustainability + tech in fashion. Best single book for context</li>
+    <li><strong>The End of Fashion</strong> by Teri Agins -- classic on industry transformation</li>
+  </ul>
+
+  <h3>Read when relevant</h3>
+  <ul>
+    <li><strong>Digital Luxury</strong> by Wided Batat -- if you're going luxury</li>
+    <li><strong>Fashion and Technology</strong> by Aneta Genova, Katherine Moriwaki -- academic but useful</li>
+    <li><strong>Designing with Smart Textiles</strong> by Sarah Kettley -- if wearables interest you</li>
+    <li><strong>Artificial Intelligence for Fashion Industry in the Big Data Era</strong> by Thomassey and Zeng -- academic, Springer</li>
+    <li><strong>Worn</strong> by Sofi Thanhauser -- deep cultural context</li>
+    <li><strong>Deluxe</strong> by Dana Thomas -- luxury business</li>
+    <li><strong>Overdressed</strong> by Elizabeth Cline -- fast fashion critique</li>
+    <li><strong>The Fashion System</strong> by Roland Barthes -- semiotics (academic)</li>
+  </ul>
+
+  <h2>Industry Reports</h2>
+
+  <h3>Must-read (free)</h3>
+  <ul>
+    <li><strong>The State of Fashion</strong> (annual) -- <a href="https://www.mckinsey.com" target="_blank" rel="noopener">McKinsey</a> and BoF. Download this first</li>
+    <li><strong>The State of Fashion: Technology</strong> -- <a href="https://www.mckinsey.com" target="_blank" rel="noopener">McKinsey</a> and BoF</li>
+    <li><strong>Resale Report</strong> (annual) -- <a href="https://www.thredup.com" target="_blank" rel="noopener">ThredUp</a></li>
+    <li><strong>Fashion Transparency Index</strong> -- <a href="https://www.fashionrevolution.org" target="_blank" rel="noopener">Fashion Revolution</a></li>
+  </ul>
+
+  <h3>Worth it if you can access</h3>
+  <ul>
+    <li><strong>Technology in Fashion</strong> -- BoF Insights (paid)</li>
+    <li><strong>Luxury Fashion Market Monitor</strong> -- Bain and Company / Altagamma</li>
+    <li><strong>Global Fashion Agenda reports</strong> -- GFA</li>
+  </ul>
+
+</article>
+
+<nav class="page-nav">
+  <a href="courses.html">&larr; Previous: Courses &amp; Certifications</a>
+  <a href="community.html">Next: Communities &amp; Networking &rarr;</a>
+</nav>
+
+<footer>
+  <div class="red-line"></div>
+  <p>Breaking Into Fashion Tech -- A Guide for Lakshi</p>
+</footer>
+
+<script>
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); });
+}, { threshold: 0.1 });
+document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
+</script>
+</body>
+</html>

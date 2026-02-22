@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio Building -- Breaking Into Fashion Tech</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+<nav class="navbar">
+  <a href="../index.html" class="nav-logo">Fashion <span>Tech</span></a>
+  <a href="../index.html" class="nav-back">&larr; Back to Guide</a>
+</nav>
+
+<section class="page-hero">
+  <div class="page-hero-inner">
+    <span class="page-number">08</span>
+    <p class="page-label">Section Eight</p>
+    <h1>Portfolio Building</h1>
+    <div class="hero-line"></div>
+  </div>
+</section>
+
+<article class="content">
+
+  <div class="pull-quote">One great project beats five mediocre ones. Make it visual -- fashion is a visual industry.</div>
+
+  <h2>Project Ideas</h2>
+
+  <h3>Beginner</h3>
+  <ol>
+    <li><strong>Fashion Image Classifier</strong> -- CNN on <a href="https://github.com/zalandoresearch/fashion-mnist" target="_blank" rel="noopener">Fashion-MNIST</a> or <a href="https://mmlab.ie.cuhk.edu.hk/projects/DeepFashion.html" target="_blank" rel="noopener">DeepFashion</a>. Classify by type, color, pattern</li>
+    <li><strong>Trend Analysis Dashboard</strong> -- Scrape fashion blogs/Instagram, visualize trending colors and silhouettes</li>
+    <li><strong>Wardrobe Organizer App</strong> -- Photograph and categorize clothing</li>
+    <li><strong>Fashion E-commerce Page</strong> -- Beautiful, responsive product page in React</li>
+  </ol>
+
+  <h3>Intermediate</h3>
+  <ol start="5">
+    <li><strong>Visual Search Engine</strong> -- Upload fashion image, find similar items from a catalog using embeddings</li>
+    <li><strong>Outfit Recommendation System</strong> -- Collaborative filtering + visual compatibility</li>
+    <li><strong>Size Recommendation Tool</strong> -- ML model suggesting sizes from body measurements + brand data</li>
+    <li><strong>Sustainability Scorecard</strong> -- Rate products/brands on sustainability criteria</li>
+    <li><strong>3D Garment Visualization</strong> -- Digital garments in <a href="https://www.clo3d.com" target="_blank" rel="noopener">CLO3D</a>, rendered in a web viewer</li>
+  </ol>
+
+  <h3>Advanced</h3>
+  <ol start="10">
+    <li><strong>Virtual Try-On Prototype</strong> -- Pose estimation + image warping</li>
+    <li><strong>AI Fashion Designer</strong> -- Fine-tune <a href="https://stability.ai" target="_blank" rel="noopener">Stable Diffusion</a> on fashion sketches</li>
+    <li><strong>Trend Forecasting Model</strong> -- NLP + CV pipeline predicting next season from social media</li>
+    <li><strong>Fashion Supply Chain Tracker</strong> -- Transparent supply chain with blockchain</li>
+    <li><strong>AR Fashion Filter</strong> -- Snap Lens or Instagram filter for virtual accessory try-on</li>
+  </ol>
+
+  <h2>How to Showcase</h2>
+
+  <ul>
+    <li><strong><a href="https://github.com" target="_blank" rel="noopener">GitHub</a></strong> -- Clean repos with README, demo screenshots/GIFs, live demos</li>
+    <li><strong>Personal website</strong> -- Highlight fashion context and business impact, not just code</li>
+    <li><strong><a href="https://www.behance.net" target="_blank" rel="noopener">Behance</a> / <a href="https://dribbble.com" target="_blank" rel="noopener">Dribbble</a></strong> -- Design-oriented work</li>
+    <li><strong>Blog posts</strong> -- Write about process and fashion tech insights</li>
+    <li><strong>Demo videos</strong> -- Fashion is visual. Show, don't tell</li>
+    <li><strong>Case study format</strong> -- Problem, Research, Solution, Results, Learnings</li>
+  </ul>
+
+  <h2>Hackathons and Competitions</h2>
+
+  <div class="table-wrap">
+  <table>
+    <thead><tr><th>Event</th><th>Notes</th></tr></thead>
+    <tbody>
+      <tr><td><strong><a href="https://www.kaggle.com" target="_blank" rel="noopener">Kaggle</a> fashion competitions</strong></td><td><a href="https://github.com/zalandoresearch/fashion-mnist" target="_blank" rel="noopener">Fashion-MNIST</a>, iMaterialist, various datasets</td></tr>
+      <tr><td><strong><a href="https://devpost.com" target="_blank" rel="noopener">Devpost</a></strong></td><td>Search "fashion" for hackathons</td></tr>
+      <tr><td><strong><a href="https://www.lvmh.com/group/lvmh-commitments/viva-technology/" target="_blank" rel="noopener">LVMH Innovation Award</a></strong></td><td>Annual. Fashion tech startups</td></tr>
+      <tr><td><strong>H&amp;M Foundation Global Change Award</strong></td><td>Innovation + sustainability</td></tr>
+      <tr><td><strong><a href="https://fashionforgood.com" target="_blank" rel="noopener">Fashion for Good</a></strong> challenges</td><td>Sustainable fashion innovation</td></tr>
+      <tr><td><strong>Google AI Fashion</strong> challenges</td><td>Periodic</td></tr>
+    </tbody>
+  </table>
+  </div>
+
+</article>
+
+<nav class="page-nav">
+  <a href="community.html">&larr; Previous: Communities &amp; Networking</a>
+  <a href="checklist.html">Next: Action Checklist &rarr;</a>
+</nav>
+
+<footer>
+  <div class="red-line"></div>
+  <p>Breaking Into Fashion Tech -- A Guide for Lakshi</p>
+</footer>
+
+<script>
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); });
+}, { threshold: 0.1 });
+document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
+</script>
+</body>
+</html>

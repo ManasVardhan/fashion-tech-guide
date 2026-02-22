@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Breaking Into Fashion Tech</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<section class="hero">
+  <div class="hero-content">
+    <p class="hero-label">February 2026</p>
+    <h1>Breaking Into<br><span class="accent">Fashion Tech</span></h1>
+    <div class="hero-line"></div>
+    <p class="hero-subtitle">A Complete Guide for Lakshi</p>
+    <p class="hero-scroll">&#8595; Explore the guide</p>
+  </div>
+</section>
+
+<section class="section-grid">
+  <h2 class="grid-title">The Guide</h2>
+  <p class="grid-subtitle">16 sections to launch your fashion tech career</p>
+  <div class="cards">
+    <a href="pages/industry.html" class="card fade-in">
+      <span class="card-number">01</span>
+      <h3>Industry Overview</h3>
+      <p>Subsectors, market size, and where the opportunity lives.</p>
+      <span class="card-meta">5 min read</span>
+    </a>
+    <a href="pages/companies.html" class="card fade-in">
+      <span class="card-number">02</span>
+      <h3>Companies to Target</h3>
+      <p>70+ companies across fashion tech, luxury, e-commerce, and startups.</p>
+      <span class="card-meta">12 min read</span>
+    </a>
+    <a href="pages/roles.html" class="card fade-in">
+      <span class="card-number">03</span>
+      <h3>Roles in Fashion Tech</h3>
+      <p>Technical, creative-hybrid, and business roles with salaries.</p>
+      <span class="card-meta">8 min read</span>
+    </a>
+    <a href="pages/skills.html" class="card fade-in">
+      <span class="card-number">04</span>
+      <h3>Skills &amp; Tools</h3>
+      <p>Technical skills, design tools, domain knowledge, and datasets.</p>
+      <span class="card-meta">6 min read</span>
+    </a>
+    <a href="pages/courses.html" class="card fade-in">
+      <span class="card-number">05</span>
+      <h3>Courses &amp; Certifications</h3>
+      <p>Programs, bootcamps, free resources, and university degrees.</p>
+      <span class="card-meta">7 min read</span>
+    </a>
+    <a href="pages/research.html" class="card fade-in">
+      <span class="card-number">06</span>
+      <h3>Papers &amp; Books</h3>
+      <p>Key research papers, essential reads, and industry reports.</p>
+      <span class="card-meta">5 min read</span>
+    </a>
+    <a href="pages/community.html" class="card fade-in">
+      <span class="card-number">07</span>
+      <h3>Communities &amp; Networking</h3>
+      <p>Events, online communities, newsletters, and people to follow.</p>
+      <span class="card-meta">6 min read</span>
+    </a>
+    <a href="pages/portfolio.html" class="card fade-in">
+      <span class="card-number">08</span>
+      <h3>Portfolio Building</h3>
+      <p>Project ideas from beginner to advanced, plus how to showcase.</p>
+      <span class="card-meta">6 min read</span>
+    </a>
+    <a href="pages/checklist.html" class="card fade-in">
+      <span class="card-number">09</span>
+      <h3>Action Checklist</h3>
+      <p>Week-by-week plan from orientation to applying for jobs.</p>
+      <span class="card-meta">5 min read</span>
+    </a>
+    <a href="pages/interview.html" class="card fade-in">
+      <span class="card-number">10</span>
+      <h3>Interview Prep</h3>
+      <p>Common questions, case studies, and presentation tips.</p>
+      <span class="card-meta">6 min read</span>
+    </a>
+    <a href="pages/realities.html" class="card fade-in">
+      <span class="card-number">11</span>
+      <h3>Industry Realities</h3>
+      <p>What's growing, what's overhyped, funding, and hiring cycles.</p>
+      <span class="card-meta">4 min read</span>
+    </a>
+    <a href="pages/entry-points.html" class="card fade-in">
+      <span class="card-number">12</span>
+      <h3>Underrated Entry Points</h3>
+      <p>Incubators, open source, content creation, and hackathons.</p>
+      <span class="card-meta">4 min read</span>
+    </a>
+    <a href="pages/geography.html" class="card fade-in">
+      <span class="card-number">13</span>
+      <h3>Geography &amp; Remote Work</h3>
+      <p>Fashion tech hubs, remote-friendly companies, and where to start.</p>
+      <span class="card-meta">3 min read</span>
+    </a>
+    <a href="pages/branding.html" class="card fade-in">
+      <span class="card-number">14</span>
+      <h3>Personal Brand Building</h3>
+      <p>How to build visibility in the small world of fashion tech.</p>
+      <span class="card-meta">3 min read</span>
+    </a>
+    <a href="pages/career-paths.html" class="card fade-in">
+      <span class="card-number">15</span>
+      <h3>Career Paths</h3>
+      <p>5 detailed paths from entry to leadership with real salaries and timelines</p>
+      <span class="card-meta">20 min read</span>
+    </a>
+    <a href="pages/la-fashion.html" class="card fade-in">
+      <span class="card-number">16</span>
+      <h3>Fashion in LA</h3>
+      <p>Where to go, who to meet, and what to do in Los Angeles to build your fashion career</p>
+      <span class="card-meta">10 min read</span>
+    </a>
+  </div>
+</section>
+
+<footer>
+  <div class="red-line"></div>
+  <p>Compiled February 2026. A guide for Lakshi.</p>
+  <p style="margin-top:0.5rem; font-size:0.7rem;">You are going to make it big!</p>
+</footer>
+
+<script>
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); });
+}, { threshold: 0.1 });
+document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
+</script>
+</body>
+</html>

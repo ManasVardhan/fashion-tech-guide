@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interview Prep -- Breaking Into Fashion Tech</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+<nav class="navbar">
+  <a href="../index.html" class="nav-logo">Fashion <span>Tech</span></a>
+  <a href="../index.html" class="nav-back">&larr; Back to Guide</a>
+</nav>
+
+<section class="page-hero">
+  <div class="page-hero-inner">
+    <span class="page-number">10</span>
+    <p class="page-label">Section Ten</p>
+    <h1>Interview Prep</h1>
+    <div class="hero-line"></div>
+  </div>
+</section>
+
+<article class="content">
+
+  <h2>Common Questions</h2>
+
+  <h3>General</h3>
+  <ol>
+    <li>Why fashion tech? What draws you to the intersection?</li>
+    <li>What fashion tech product do you admire most and why?</li>
+    <li>How would you improve [company's product]?</li>
+    <li>What's the biggest challenge in fashion technology today?</li>
+  </ol>
+
+  <h3>Technical roles</h3>
+  <ol start="5">
+    <li>How would you build a recommendation system for fashion e-commerce?</li>
+    <li>How do you handle cold-start in fashion recommendations?</li>
+    <li>Walk through a CV pipeline for fashion product tagging</li>
+    <li>How would you evaluate a virtual try-on system?</li>
+  </ol>
+
+  <h3>Product/Business roles</h3>
+  <ol start="9">
+    <li>How would you measure success for virtual try-on?</li>
+    <li>Design a feature that reduces fashion returns</li>
+    <li>What metrics matter most for fashion e-commerce?</li>
+  </ol>
+
+  <h3>Creative/Hybrid roles</h3>
+  <ol start="12">
+    <li>Show something you've built that bridges fashion and technology</li>
+    <li>How do you balance aesthetics with technical constraints?</li>
+  </ol>
+
+  <h2>Case Studies</h2>
+
+  <h3>Reducing Returns</h3>
+  <p>"Our fashion e-commerce has a 30% return rate. Use tech to reduce it."</p>
+  <ul>
+    <li>Analyze return reasons (size/fit, color, style mismatch)</li>
+    <li>Propose solutions: better size rec, AR try-on, improved imagery, customer reviews</li>
+    <li>Estimate impact for each</li>
+    <li>Prioritize by effort vs impact</li>
+  </ul>
+
+  <h3>Trend Prediction</h3>
+  <p>"Build a system to predict next season's trends."</p>
+  <ul>
+    <li>Data sources: social media, runway, search data, street style</li>
+    <li>Pipeline: image collection, feature extraction, trend detection</li>
+    <li>Output: dashboards, alerts, design recommendations</li>
+    <li>Validation against actual trends</li>
+  </ul>
+
+  <h3>Personalization</h3>
+  <p>"Design personalization for a luxury fashion marketplace."</p>
+  <ul>
+    <li>Balance personalization vs luxury discovery</li>
+    <li>Data signals: browse, purchase, returns, wishlists</li>
+    <li>Cold-start solutions</li>
+    <li>Editorial curation + algorithmic recs</li>
+    <li>A/B testing framework</li>
+  </ul>
+
+  <h2>Portfolio Presentation Tips</h2>
+
+  <ol>
+    <li><strong>Lead with the problem, not the tech.</strong> "I wanted to solve X" not "I used PyTorch"</li>
+    <li><strong>Show visual results.</strong> Fashion is visual</li>
+    <li><strong>Quantify.</strong> "Improved accuracy by X%", "Tested with Y users"</li>
+    <li><strong>Show domain knowledge.</strong> Use correct fashion terminology</li>
+    <li><strong>3 - 4 projects max.</strong> Quality over quantity</li>
+    <li><strong>Have a live demo.</strong> Even simple ones impress</li>
+    <li><strong>Practice the 10-minute version</strong></li>
+  </ol>
+
+</article>
+
+<nav class="page-nav">
+  <a href="checklist.html">&larr; Previous: Action Checklist</a>
+  <a href="realities.html">Next: Industry Realities &rarr;</a>
+</nav>
+
+<footer>
+  <div class="red-line"></div>
+  <p>Breaking Into Fashion Tech -- A Guide for Lakshi</p>
+</footer>
+
+<script>
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); });
+}, { threshold: 0.1 });
+document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
+</script>
+</body>
+</html>
